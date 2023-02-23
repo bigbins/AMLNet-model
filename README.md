@@ -15,13 +15,14 @@ Directory structure for training and test data:
 	│   ├──M2a
 	│   ├──...
 #### For 5-fold cross-validation
-		DATA
+	DATA
 	└── All
 	│   ├──M1
 	│   ├──M2a
 	│   ├──...
 #### For test at the patient-level
-		DATA
+
+	DATA
 	└── Dual_center_test
 	│   ├──M1
 		│   ├──Patien1
