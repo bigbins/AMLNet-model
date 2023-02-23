@@ -2,7 +2,7 @@
 This code implements AMLNet from the manuscript "A deep-learning pipeline for the diagnosis and discrimination of acute myeloid leukemia from bone marrow smears".
 ## Prerequisites
 Any operating system on which you can run GPU-accelerated PyTorch. Python >=3.8. For packages see requirements.txt.
-### Training
+## Training
 Directory structure for training and test data:
 
 	DATA
@@ -33,7 +33,7 @@ Configuring hyperparameters via the `./experiments ` directory
 -  `./kfold `: implement 5-fold cross-validation, add DROPOUT under the MODEL directory.
 
 Nvidia TITAN RTX with 24GB of memory for GPU is used to accelerate training.
-### Test
+## Test
 #### For test at the image-level
 	DATA
 	└── Dual_center_test
