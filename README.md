@@ -61,9 +61,9 @@ Code in `./test `
 
 ## Publicly available software
 ### Test, open to acess soon
-- ##### Available on cell phone
+- #### Available on cell phone
 
-https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png
+![image](https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png)
 
 
 
