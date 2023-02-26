@@ -65,5 +65,7 @@ Code in `./test `
 - [x] GFM task list 2
 - [ ] Open to access
 
+![image](https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png)
+
 
 
