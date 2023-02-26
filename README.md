@@ -1,5 +1,5 @@
 # AMLNet
-This code implements AMLNet from the manuscript "<font size="4">***AMLnet, A deep-learning pipeline for the differential diagnosis of acute myeloid leukemia from bone marrow smears***</font>".
+This code implements AMLNet from the manuscript "<font size="4">***A deep-learning pipeline for the diagnosis and discrimination of acute myeloid leukemia from bone marrow smears***</font>".
 
 ## Prerequisites
 Any operating system on which you can run GPU-accelerated PyTorch. Python >=3.8. For packages see requirements.txt.
@@ -59,7 +59,11 @@ Code in `./test `
 - 1.test.py: evaluate model performance at the image level.
 - 2.test_patient.py: evaluate model performance at the patient level.
 
-
+## Publicly available software
+### Timeline
+- [x] Open to access
+- [x] GFM task list 2
+- [ ] Open to access
 
 
 
