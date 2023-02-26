@@ -60,12 +60,10 @@ Code in `./test `
 - 2.test_patient.py: evaluate model performance at the patient level.
 
 ## Publicly available software
-### Timeline
-- [x] Open to access
-- [x] GFM task list 2
-- [ ] Open to access
+### Test, open to acess soon
+- ##### Available on cell phone
 
-![image](https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png)
+https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png
 
 
 
