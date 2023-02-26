@@ -144,6 +144,25 @@ def main():
     labels=valid_loader.dataset.classes
     a,output_patient,label_all,path_all=validate_patient(config, valid_loader, model, criterion, final_output_dir,tb_log_dir,labels, None)
 
+    patient_name=[i.split('/')[-2] for i in path_all] 
+    def calculate_averages(array, name_list,label_list):
+        df = pd.DataFrame(array)
+        df['name'] = name_list
+        df['label'] = label_list
+ 
+        averages = df.groupby('name').mean()
+        averages['predict']=averages.iloc[:,0:9].apply(lambda x: x.idxmax(), axis=1)
+
+
+        averages['label']=averages['label'].astype('int64')
+        top1=sum(averages['label']==averages['predict'])/len(averages)
+        print('Patient level top1 accuracy is: {:.3}'.format(top1))
+        return averages
+    calculate_averages(output_patient,
+                        patient_name,
+                        label_all)
+
+
     output_patient=np.array(output_patient)
     label_all=np.array(label_all)
     print(output_patient.shape)
