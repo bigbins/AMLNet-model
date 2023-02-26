@@ -60,10 +60,11 @@ Code in `./test `
 - 2.test_patient.py: evaluate model performance at the patient level.
 
 ## Publicly available software
-### Test, open to acess soon
+### Test (local), open to acess soon
 - #### Available on cell phone
 
 ![image](https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png)
 
+- ##### Available on website
 
 
