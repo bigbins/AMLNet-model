@@ -59,7 +59,7 @@ Code in `./test `
 - 1.test.py: evaluate model performance at the image level.
 - 2.test_patient.py: evaluate model performance at the patient level.
 
-## Publicly available software
+## Publicly available software tool
 ### Local test, open to acess soon
 - #### Available on cell phone
 
