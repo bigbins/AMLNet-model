@@ -61,7 +61,7 @@ Code in `./test `
 
 ## Publicly available software tool
 ### Local test, open to acess soon
-- #### Available on cell phone
+- #### Available on mobile phone
 
 ![image](https://github.com/bigbins/AMLNet-model/blob/main/img/img1.png)
 
